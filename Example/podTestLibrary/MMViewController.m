@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSString * path = [[NSBundle mainBundle]pathForResource:@"QuickManifest" ofType:@"plist"];
+    NSDictionary * dic = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSLog(@"dic = %@",dic);
 }
 
 - (void)didReceiveMemoryWarning
