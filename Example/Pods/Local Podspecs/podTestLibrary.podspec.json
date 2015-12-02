@@ -1,0 +1,25 @@
+{
+  "name": "podTestLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of podTestLibrary.",
+  "description": "A short description of podTestLibrary.A short description of podTestLibrary.",
+  "homepage": "https://github.com/tanglimei/podTestLibrary",
+  "license": "MIT",
+  "authors": {
+    "tanglimei": "562630424@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/tanglimei/podTestLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "resources": "Pod/Classes/*.plist",
+  "resource_bundles": {
+    "podTestLibrary": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
